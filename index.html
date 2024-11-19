@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flexible box</title>
-    <style>
-    div.container{
-     background-color: aqua;
-     display: flex;
-    }
+    <title>Document</title>
+    <STyle>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
 
-    div.item{
-    background-color: brown;
-    border: 1px solid black;
-    flex: auto;
-    }
+        body{
+            background-color: blueviolet;
+        }
 
-    </style>
+        main{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            background-color: rgb(255, 0, 55);
+            height: 200px;
+            width: 200px;
+        }
+    </STyle>
 </head>
 <body>
-   <div class="container">
-<div class="item">A</div>
-<div class="item">B</div>
-<div class="item">C</div>
-<div class="item">D</div>
-<div class="item">E</div>
-<div class="item">F</div>
-<div class="item">G</div>
-</div> 
+    <Main>
+        <Section>
+            <H1>TELA DE LOGIN</H1>
+        </Section>
+    </Main>
 </body>
 </html>
